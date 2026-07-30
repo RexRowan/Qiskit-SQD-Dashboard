@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qiskit-sqd-dashboard"
+version = "0.1.0"
+description = "Live convergence diagnostics for qiskit-addon-sqd's self-consistent configuration recovery loop, rendered as an in-notebook Plotly widget."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Rex Rowan" },
+]
+keywords = ["qiskit", "quantum computing", "sqd", "visualization", "jupyter"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Framework :: Jupyter",
+]
+dependencies = [
+    "qiskit-addon-sqd>=0.5",
+    "plotly>=5.0",
+    "numpy",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "pyscf"]
+
+[project.urls]
+Homepage = "https://github.com/RexRowan/qiskit-sqd-dashboard"
+Repository = "https://github.com/RexRowan/qiskit-sqd-dashboard"
+Issues = "https://github.com/RexRowan/qiskit-sqd-dashboard/issues"
+
+[tool.setuptools.packages.find]
+include = ["qiskit_sqd_dashboard*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
