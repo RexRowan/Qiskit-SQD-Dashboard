@@ -87,4 +87,4 @@ twine check dist/*
 
 ## License
 
-Apache 2.0 (recommended for Qiskit Ecosystem submission).
+MIT (recommended for Qiskit Ecosystem submission).
