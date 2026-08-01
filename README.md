@@ -87,4 +87,4 @@ twine check dist/*
 
 ## License
 
-MIT (recommended for Qiskit Ecosystem submission).
+MIT 
