@@ -1,5 +1,8 @@
 # qiskit-sqd-dashboard
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Qiskit Ecosystem](https://img.shields.io/badge/Qiskit-Ecosystem-blueviolet)](https://www.ibm.com/quantum/ecosystem)
+
 Live convergence diagnostics for [`qiskit-addon-sqd`](https://github.com/Qiskit/qiskit-addon-sqd)'s self-consistent configuration recovery loop, rendered as an in-notebook Plotly widget.
 
 `qiskit-addon-sqd` is a pure compute library with no visualization layer — this package fills that gap without modifying or wrapping the addon itself.
