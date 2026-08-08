@@ -1,7 +1,7 @@
 # qiskit-sqd-dashboard
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Qiskit Ecosystem](https://img.shields.io/badge/Qiskit-Ecosystem-blueviolet)](https://www.ibm.com/quantum/ecosystem)
+[![Qiskit Ecosystem](https://qisk.it/e-7b1e622a)](https://qisk.it/e)
 
 Live convergence diagnostics for [`qiskit-addon-sqd`](https://github.com/Qiskit/qiskit-addon-sqd)'s self-consistent configuration recovery loop, rendered as an in-notebook Plotly widget.
 
